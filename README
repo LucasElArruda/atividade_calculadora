@@ -1,0 +1,34 @@
+Projeto de calculadora em C:
+
+Vocês devem desenvolver uma calculadora em C que seja gentil com o usuário e realize os cálculos pedidos.
+
+A calculadora realizará as seguintes operações:
+  - Soma;
+  - Subtração;
+  - Multiplicação;
+  - Divisão;
+  - Soma de matrizes;
+  - Subtração de matrizes;
+  - Cálculo de determinante de matrizes.
+
+Serão formados grupos constituídos de 2 computadores, ficando um responsável pelo frontend, que deve interagir com o usuário e coletar os dados fornecidos; e o outro responsável pelo backend, que deverá implementar as funções descritas acima.
+
+Fica a critério do grupo como o usuário entrará com os dados e de que maneira estes serão passados para a equipe de backend, ou seja, se virem!
+
+As equipes deverão criar um branch com o nome criado para a equipe e desenvolver os códigos neste branch!
+
+Alguns códigos iniciais já foram fornecidos, mas não precisa usar exatamente como foram dados!
+
+1. Formar duplas de computadores;
+2. Dividir quem fica com frontend e quem fica com backend;
+3. Trabalhar em conjunto!
+
+Dicas:
+
+Para compilar um arquivo em C no linux, usar o seguinte comando
+
+gcc -o <nomeDesejadoProExecutavel> <nomeDoArquivo>
+
+No caso das funções já fornecidas,
+
+gcc -o main.exe frontend.cpp backend.cpp
